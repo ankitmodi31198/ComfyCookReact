@@ -19,7 +19,7 @@ class MyRoutes extends Component {
                     <Route path="/login" component={Login} />
                     <Route path="/register" component={Register} />
                     <Route path="/user/profile" component={Profile} />
-                    <Route path="/user/myrecipes" component={MyRecipes} />
+                    <Route path="/user/myrecipes" component={MyRecipes} />                    
                     <Route path="/loader" component={Loader} />
                     <Route path="/logout" component={Logout} />
                 </Switch>
