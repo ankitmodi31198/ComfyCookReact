@@ -24,7 +24,9 @@ class GetMyRecipes extends Component {
         this.setState({foodId: e.target.value, viewFoodPage: true})
     }
     closeFoodPage = () => {
-        this.setState({foodId: '', viewFoodPage: false})
+        this.setState({foodId: '', viewFoodPage: false}, () => {
+            this.componentDidMount()
+        })        
     }
     render() { 
         return (
